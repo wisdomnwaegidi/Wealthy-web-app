@@ -1,0 +1,15 @@
+POST   http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "childFullNames": "Wisdom Nwaegidi",
+    "childAge": 12,
+    "homeAddress" : "No 8 Oguta Street",
+    "parentNames": "Linus & Chioma",
+    "stateOfOrigin": "Ebonyi State",
+    "childClass": "Primary One",
+    "parentsEmail": "wisdomnwaegidi12@gmail.com",
+    "password": "LionelMessi"
+}
+
+

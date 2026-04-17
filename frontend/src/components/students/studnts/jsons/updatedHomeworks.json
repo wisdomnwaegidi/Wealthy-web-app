@@ -1,0 +1,34 @@
+{
+  "assignments": [
+    {
+      "subject": "English",
+      "assignment": "Use of English",
+      "dueDate": "September 10, 2024",
+      "status": "Completed"
+    },
+    {
+      "subject": "Maths",
+      "assignment": "Basic Calculus",
+      "dueDate": "March 5, 2024",
+      "status": "Completed"
+    },
+    {
+      "subject": "User Experience Research",
+      "assignment": "Usability Testing Report",
+      "dueDate": "April 15, 2024",
+      "status": "Completed"
+    },
+    {
+      "subject": "Digital Photography",
+      "assignment": "Photojournalism Project",
+      "dueDate": "April 8, 2024",
+      "status": "Pending"
+    },
+    {
+      "subject": "3D Animation",
+      "assignment": "Character Animation Project",
+      "dueDate": "May 20, 2024",
+      "status": "Pending"
+    }
+  ]
+}

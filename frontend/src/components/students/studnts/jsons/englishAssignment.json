@@ -1,0 +1,212 @@
+{
+  "userId": { "$oid": "68ca5ec97c4188e729f03eb4" },
+  "subject": "English",
+  "assignment": "English Vocabulary and Grammar for Primary One",
+  "status": "Not Started",
+  "dueDate": {
+    "$date": "2024-06-15T00:00:00Z"
+  },
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "What is the plural of 'cat'?",
+      "options": [
+        { "optionText": "Cats", "isCorrect": true },
+        { "optionText": "Cates", "isCorrect": false },
+        { "optionText": "Cat", "isCorrect": false },
+        { "optionText": "Cate", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "Which of the following is a vowel?",
+      "options": [
+        { "optionText": "A", "isCorrect": true },
+        { "optionText": "B", "isCorrect": false },
+        { "optionText": "C", "isCorrect": false },
+        { "optionText": "D", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "Choose the correct article for the word 'apple'.",
+      "options": [
+        { "optionText": "An", "isCorrect": true },
+        { "optionText": "A", "isCorrect": false },
+        { "optionText": "The", "isCorrect": false },
+        { "optionText": "None", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "What is the opposite of 'big'?",
+      "options": [
+        { "optionText": "Small", "isCorrect": true },
+        { "optionText": "Tall", "isCorrect": false },
+        { "optionText": "Long", "isCorrect": false },
+        { "optionText": "Wide", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "Complete the sentence: I _____ to school.",
+      "options": [
+        { "optionText": "Go", "isCorrect": true },
+        { "optionText": "Went", "isCorrect": false },
+        { "optionText": "Gone", "isCorrect": false },
+        { "optionText": "Goes", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 6,
+      "questionText": "Which of these is a noun?",
+      "options": [
+        { "optionText": "Dog", "isCorrect": true },
+        { "optionText": "Run", "isCorrect": false },
+        { "optionText": "Quickly", "isCorrect": false },
+        { "optionText": "And", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 7,
+      "questionText": "Which of the following words is an adjective?",
+      "options": [
+        { "optionText": "Beautiful", "isCorrect": true },
+        { "optionText": "Run", "isCorrect": false },
+        { "optionText": "Apple", "isCorrect": false },
+        { "optionText": "Quickly", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 8,
+      "questionText": "What is the past tense of 'run'?",
+      "options": [
+        { "optionText": "Ran", "isCorrect": true },
+        { "optionText": "Running", "isCorrect": false },
+        { "optionText": "Runs", "isCorrect": false },
+        { "optionText": "Runned", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 9,
+      "questionText": "Which word is a verb?",
+      "options": [
+        { "optionText": "Jump", "isCorrect": true },
+        { "optionText": "Book", "isCorrect": false },
+        { "optionText": "Red", "isCorrect": false },
+        { "optionText": "Tree", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 10,
+      "questionText": "What is the plural of 'dog'?",
+      "options": [
+        { "optionText": "Dogs", "isCorrect": true },
+        { "optionText": "Doges", "isCorrect": false },
+        { "optionText": "Dog", "isCorrect": false },
+        { "optionText": "Dog's", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 11,
+      "questionText": "Complete the sentence: He is _____ than me.",
+      "options": [
+        { "optionText": "Taller", "isCorrect": true },
+        { "optionText": "Tallest", "isCorrect": false },
+        { "optionText": "Tall", "isCorrect": false },
+        { "optionText": "Talling", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 12,
+      "questionText": "What is the opposite of 'hot'?",
+      "options": [
+        { "optionText": "Cold", "isCorrect": true },
+        { "optionText": "Warm", "isCorrect": false },
+        { "optionText": "Hotter", "isCorrect": false },
+        { "optionText": "Cool", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 13,
+      "questionText": "Which of these is a proper noun?",
+      "options": [
+        { "optionText": "John", "isCorrect": true },
+        { "optionText": "boy", "isCorrect": false },
+        { "optionText": "tree", "isCorrect": false },
+        { "optionText": "car", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 14,
+      "questionText": "Choose the correct spelling.",
+      "options": [
+        { "optionText": "Elephant", "isCorrect": true },
+        { "optionText": "Elefant", "isCorrect": false },
+        { "optionText": "Elephent", "isCorrect": false },
+        { "optionText": "Eliphant", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 15,
+      "questionText": "Which of these is a synonym for 'happy'?",
+      "options": [
+        { "optionText": "Joyful", "isCorrect": true },
+        { "optionText": "Sad", "isCorrect": false },
+        { "optionText": "Angry", "isCorrect": false },
+        { "optionText": "Tired", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 16,
+      "questionText": "What is the opposite of 'fast'?",
+      "options": [
+        { "optionText": "Slow", "isCorrect": true },
+        { "optionText": "Quick", "isCorrect": false },
+        { "optionText": "Swift", "isCorrect": false },
+        { "optionText": "Fastest", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 17,
+      "questionText": "Complete the sentence: She _____ to the store yesterday.",
+      "options": [
+        { "optionText": "Went", "isCorrect": true },
+        { "optionText": "Go", "isCorrect": false },
+        { "optionText": "Goes", "isCorrect": false },
+        { "optionText": "Gone", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 18,
+      "questionText": "Which of these is a sentence?",
+      "options": [
+        { "optionText": "The cat is sleeping.", "isCorrect": true },
+        { "optionText": "Sleeping the cat.", "isCorrect": false },
+        { "optionText": "Cat sleeping.", "isCorrect": false },
+        { "optionText": "Is sleeping.", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 19,
+      "questionText": "Which of these words is a preposition?",
+      "options": [
+        { "optionText": "Under", "isCorrect": true },
+        { "optionText": "Run", "isCorrect": false },
+        { "optionText": "Boy", "isCorrect": false },
+        { "optionText": "Red", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 20,
+      "questionText": "Choose the correct sentence.",
+      "options": [
+        { "optionText": "The dog is playing.", "isCorrect": true },
+        { "optionText": "Dog the playing is.", "isCorrect": false },
+        { "optionText": "Playing dog the is.", "isCorrect": false },
+        { "optionText": "Is the dog playing.", "isCorrect": false }
+      ]
+    }
+  ],
+  "submittedAnswers": []
+}

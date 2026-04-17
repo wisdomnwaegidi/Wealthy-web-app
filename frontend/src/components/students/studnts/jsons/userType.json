@@ -1,0 +1,33 @@
+{
+  "_id": {
+    "$oid": "66e15f52c19f057eff6cea88"
+  },
+  "childFirstName": "Wisdom",
+  "childSurname": "Nwaegidi",
+  "childAge": 10,
+  "homeAddress": "No 848 Njeribeako Street Owerri Imo State",
+  "parentNames": "Linus and Chioma Nwaegidi",
+  "stateOfOrigin": "Imo State",
+  "childClass": "Primary One",
+  "parentsEmail": "wisdomnwaegidi@gmail.com",
+  "password": "$2a$08$0J3E.sOY7NtDebRJ0zBxrefwDke5sK8BOwGAKPfZESoURL.r3s/xy",
+  "fees": 0,
+  "isVerified": true,
+  "resetToken": null,
+  "resetTokenExpiry": null,
+  "isActive": true,
+  "deletedAt": null,
+  "outstandingFees": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1726046034554"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1726117249222"
+    }
+  },
+  "__v": 0,
+  "verificationToken": null
+}

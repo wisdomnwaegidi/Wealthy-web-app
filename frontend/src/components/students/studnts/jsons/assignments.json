@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "66e3276e444d4a3e1d7582f6"
+  },
+  "subject": "English",
+  "assignment": "Use of English",
+  "dueDate": "September 10, 2024",
+  "status": "Completed"
+},{
+  "_id": {
+    "$oid": "66e3276e444d4a3e1d7582f7"
+  },
+  "subject": "Maths",
+  "assignment": "Basic Calculus",
+  "dueDate": "March 5, 2024",
+  "status": "Completed"
+},{
+  "_id": {
+    "$oid": "66e3276e444d4a3e1d7582f8"
+  },
+  "subject": "User Experience Research",
+  "assignment": "Usability Testing Report",
+  "dueDate": "April 15, 2024",
+  "status": "In Progress"
+},{
+  "_id": {
+    "$oid": "66e3276e444d4a3e1d7582f9"
+  },
+  "subject": "Digital Photography",
+  "assignment": "Photojournalism Project",
+  "dueDate": "April 8, 2024",
+  "status": "Not Started"
+},{
+  "_id": {
+    "$oid": "66e3276e444d4a3e1d7582fa"
+  },
+  "subject": "3D Animation",
+  "assignment": "Character Animation Project",
+  "dueDate": "May 20, 2024",
+  "status": "Not Submitted"
+}]

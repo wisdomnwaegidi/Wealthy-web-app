@@ -1,0 +1,23 @@
+export type UserType = {
+  _id: string;
+  childFirstName: string;
+  childSurname: string;
+  childAge: number;
+  homeAddress: string;
+  parentNames: string;
+  stateOfOrigin: string;
+  childClass: string;
+  parentsEmail: string;
+  password: string;
+  avatar?: string;
+  fees: number;
+  verificationToken?: string | null;
+  isVerified: boolean;
+  resetToken?: string | null;
+  resetTokenExpiry?: Date | null;
+  isActive: boolean;
+  deletedAt?: Date | null;
+  outstandingFees: number;
+  createdAt?: Date;
+  updatedAt?: Date;
+};

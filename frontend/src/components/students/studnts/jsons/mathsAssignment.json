@@ -1,0 +1,212 @@
+{
+  "userId": { "$oid": "68ca5ec97c4188e729f03eb4" },
+  "subject": "Mathematics",
+  "assignment": "Basic Mathematics for Primary One",
+  "status": "Not Started",
+  "dueDate": {
+    "$date": "2024-06-20T00:00:00Z"
+  },
+  "questions": [
+    {
+      "questionNumber": 1,
+      "questionText": "What is 2 + 3?",
+      "options": [
+        { "optionText": "5", "isCorrect": true },
+        { "optionText": "6", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "3", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 2,
+      "questionText": "What is 7 - 4?",
+      "options": [
+        { "optionText": "3", "isCorrect": true },
+        { "optionText": "2", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 3,
+      "questionText": "What is 5 x 2?",
+      "options": [
+        { "optionText": "10", "isCorrect": true },
+        { "optionText": "7", "isCorrect": false },
+        { "optionText": "12", "isCorrect": false },
+        { "optionText": "8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 4,
+      "questionText": "What is 12 ÷ 4?",
+      "options": [
+        { "optionText": "3", "isCorrect": true },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "2", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 5,
+      "questionText": "Which number comes after 9?",
+      "options": [
+        { "optionText": "10", "isCorrect": true },
+        { "optionText": "9", "isCorrect": false },
+        { "optionText": "8", "isCorrect": false },
+        { "optionText": "11", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 6,
+      "questionText": "Which number is smaller?",
+      "options": [
+        { "optionText": "3", "isCorrect": true },
+        { "optionText": "7", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "9", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 7,
+      "questionText": "What is 0 + 5?",
+      "options": [
+        { "optionText": "5", "isCorrect": true },
+        { "optionText": "0", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 8,
+      "questionText": "What is 10 - 6?",
+      "options": [
+        { "optionText": "4", "isCorrect": true },
+        { "optionText": "3", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 9,
+      "questionText": "Which of these numbers is even?",
+      "options": [
+        { "optionText": "2", "isCorrect": true },
+        { "optionText": "3", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "7", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 10,
+      "questionText": "Which of these numbers is odd?",
+      "options": [
+        { "optionText": "5", "isCorrect": true },
+        { "optionText": "2", "isCorrect": false },
+        { "optionText": "8", "isCorrect": false },
+        { "optionText": "10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 11,
+      "questionText": "What is 3 + 6?",
+      "options": [
+        { "optionText": "9", "isCorrect": true },
+        { "optionText": "8", "isCorrect": false },
+        { "optionText": "7", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 12,
+      "questionText": "What is 8 - 5?",
+      "options": [
+        { "optionText": "3", "isCorrect": true },
+        { "optionText": "2", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 13,
+      "questionText": "What is 2 x 3?",
+      "options": [
+        { "optionText": "6", "isCorrect": true },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "8", "isCorrect": false },
+        { "optionText": "9", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 14,
+      "questionText": "What is 9 ÷ 3?",
+      "options": [
+        { "optionText": "3", "isCorrect": true },
+        { "optionText": "2", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 15,
+      "questionText": "Which of these numbers is greater?",
+      "options": [
+        { "optionText": "7", "isCorrect": true },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "3", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 16,
+      "questionText": "What is 1 + 9?",
+      "options": [
+        { "optionText": "10", "isCorrect": true },
+        { "optionText": "9", "isCorrect": false },
+        { "optionText": "11", "isCorrect": false },
+        { "optionText": "12", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 17,
+      "questionText": "What is 6 - 2?",
+      "options": [
+        { "optionText": "4", "isCorrect": true },
+        { "optionText": "3", "isCorrect": false },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 18,
+      "questionText": "What is 4 x 2?",
+      "options": [
+        { "optionText": "8", "isCorrect": true },
+        { "optionText": "6", "isCorrect": false },
+        { "optionText": "7", "isCorrect": false },
+        { "optionText": "9", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 19,
+      "questionText": "What is 12 ÷ 6?",
+      "options": [
+        { "optionText": "2", "isCorrect": true },
+        { "optionText": "3", "isCorrect": false },
+        { "optionText": "4", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionNumber": 20,
+      "questionText": "Complete the sequence: 1, 2, 3, __?",
+      "options": [
+        { "optionText": "4", "isCorrect": true },
+        { "optionText": "5", "isCorrect": false },
+        { "optionText": "6", "isCorrect": false },
+        { "optionText": "3", "isCorrect": false }
+      ]
+    }
+  ],
+  "submittedAnswers": []
+}
