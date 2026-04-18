@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <main className='img min-h-[70vh] sm:min-h-[90vh] relative flex items-center'>
       <section className='w-full md:w-[80%] lg:w-[50%] flex flex-col mx-auto justify-center text-center pt-20 md:pt-6 px-4 md:px-0'>
-        <h1 className='text-5xl md:text-5xl lg:text-[5rem] font-[700] tracking-tighter leading-tight md:leading-none mb-6 md:mb-9 mt-6 md:mt-9 text-white drop-shadow-2xl'>
+        <h1 className='text-5xl md:text-5xl lg:text-[5rem] font-[900] sm:font-[700] tracking-tighter leading-tight md:leading-none mb-6 md:mb-9 mt-6 md:mt-9 text-white drop-shadow-2xl'>
           We turn your{" "}
           <span className='font-[800] relative inline-block'>
             {/* Shimmer + Typed Words */}

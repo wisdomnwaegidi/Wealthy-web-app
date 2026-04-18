@@ -64,7 +64,7 @@ export default function Welcome() {
                     <p className={`font-bold text-lg ${item.color}`}>
                       {item.title}
                     </p>
-                    <div className='w-16 h-1 bg-gray-300 my-2 group-hover:bg-black transition-all'></div>
+                    {/* <div className='w-16 h-1 bg-gray-300 my-2 group-hover:bg-black transition-all'></div> */}
                     <p className='text-gray-600 text-sm'>{item.desc}</p>
                   </div>
                 </div>
