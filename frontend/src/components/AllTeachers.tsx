@@ -9,7 +9,7 @@ interface Teacher extends TeacherData {
   showIcons: boolean;
 }
 
-const MeetStaff = () => {
+export default function Teachers() {
   // 1. Initialize State: Map data and set showIcons to false for all
   const [teachers, setTeachers] = useState<Teacher[]>(
     teachersData.map((teacher) => ({ ...teacher, showIcons: false })),
@@ -26,7 +26,7 @@ const MeetStaff = () => {
   };
 
   return (
-    <div className='container mx-auto py-16 text-center'>
+    <div className='container mx-auto py-16 text-center mt-[10%]'>
       {/* 2. GRID CONTAINER (using grid instead of flex for rigid structure) */}
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-16 justify-center max-w-7xl mx-auto px-6'>
         {teachers.map((teacher) => {
@@ -69,8 +69,8 @@ const MeetStaff = () => {
                     title='Toggle social media links'
                     onClick={() => toggleIcons(id)}
                     className={`p-4 rounded-full shadow-lg transition-all duration-300 transform flex items-center justify-center
-                      bg-gradient-to-br from-pink-400 to-red-500
-                      ${showIcons ? "rotate-45" : "rotate-0"}`}
+                       bg-gradient-to-br from-pink-400 to-red-500
+                       ${showIcons ? "rotate-45" : "rotate-0"}`}
                   >
                     <FaPlus className='text-white text-xl' />
                   </button>
@@ -128,17 +128,6 @@ const MeetStaff = () => {
           );
         })}
       </div>
-
-      <div className='flex justify-center mt-10'>
-        <Link
-          to='/teachers'
-          className='font-medium bg-purplecolor text-white py-4 px-12 hover:bg-prcolor transition-all rounded-full shadow-lg'
-        >
-          See all Teachers
-        </Link>
-      </div>
     </div>
   );
-};
-
-export default MeetStaff;
+}

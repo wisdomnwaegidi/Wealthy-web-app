@@ -13,7 +13,7 @@ import StudentClasses from "./pages/StudentClasses";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Faqs from "./pages/Faqs";
-import BlogPosts from "./pages/BlogPosts";
+import BlogPosts from "./pages/BlogPost";
 import EachBlogPost from "./pages/EachBlogPost";
 import Subjects from "./components/Subjects";
 import Android from "./components/Android";
@@ -22,7 +22,7 @@ import ForgotPassword from "./components/ForgotPassword";
 import ResetPassword from "./components/ResetPassword";
 import EmailVerification from "./components/EmailVerification";
 import Banner from "./components/Banner";
-import MeetStaff from "./pages/MeetStaff";
+import MeetStaff from "./pages/Teachers";
 import SchoolDetails from "./components/SchoolDetails";
 import Parentsday from "./components/ParentsDay";
 import Quiz from "./components/Quiz";
@@ -40,9 +40,10 @@ import SchoolFeesPayment from "./components/students/studnts/SchoolFeesPayment";
 import Announcement from "./components/students/Announcement";
 import Assignments from "./components/students/studnts/Assignments";
 import AssignmentsPage from "./components/students/studnts/AssignmentsPage";
-import SeeAll from "./components/Teachers";
+import Teachers from "./components/Teachers";
 import CompleteProfile from "./components/students/studnts/CompleteProfile";
 import SettingsPage from "./components/students/SettingsPage";
+import AllTeachers from "./components/AllTeachers";
 
 function App() {
   const { isLoggedIn } = useAppContext();
@@ -205,11 +206,18 @@ function App() {
             path='/teachers'
             element={
               <Layout>
-                <SeeAll />
+                <Teachers />
               </Layout>
             }
           ></Route>
-          // Add this alongside your other public routes
+          <Route
+            path='/all-teachers'
+            element={
+              <Layout>
+                <AllTeachers />
+              </Layout>
+            }
+          ></Route>
           <Route
             path='/complete-profile'
             element={
