@@ -1,12 +1,8 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import { ReactTyped, Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Hero = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [typed, setTyped] = useState<Typed | undefined>();
-
   return (
     <main className='img min-h-[70vh] sm:min-h-[90vh] relative flex items-center'>
       <section className='w-full md:w-[80%] lg:w-[50%] flex flex-col mx-auto justify-center text-center pt-20 md:pt-6 px-4 md:px-0'>
@@ -15,7 +11,6 @@ const Hero = () => {
           <span className='font-[800] relative inline-block'>
             {/* Shimmer + Typed Words */}
             <ReactTyped
-              typedRef={setTyped}
               strings={["child", "kid", "ward"]}
               typeSpeed={100}
               backSpeed={50}
