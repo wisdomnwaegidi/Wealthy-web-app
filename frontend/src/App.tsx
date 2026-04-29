@@ -22,7 +22,6 @@ import ForgotPassword from "./components/ForgotPassword";
 import ResetPassword from "./components/ResetPassword";
 import EmailVerification from "./components/EmailVerification";
 import Banner from "./components/Banner";
-import MeetStaff from "./pages/Teachers";
 import SchoolDetails from "./components/SchoolDetails";
 import Parentsday from "./components/ParentsDay";
 import Quiz from "./components/Quiz";
@@ -44,6 +43,9 @@ import Teachers from "./components/Teachers";
 import CompleteProfile from "./components/students/studnts/CompleteProfile";
 import SettingsPage from "./components/students/SettingsPage";
 import AllTeachers from "./components/AllTeachers";
+import ParentTestimonials from "./components/Testimonials";
+import SchoolGallery from "./components/SchoolGallery";
+import StatusCounter from "./components/StatusCounter";
 
 function App() {
   const { isLoggedIn } = useAppContext();
@@ -59,9 +61,12 @@ function App() {
                 <Hero />
                 <Welcome />
                 <Subjects />
+                <StatusCounter />;
                 <Android />
                 <Banner />
-                <MeetStaff />
+                <ParentTestimonials />
+                <SchoolGallery />
+                <Teachers />
                 <SchoolDetails />
               </Layout>
             }
@@ -171,6 +176,14 @@ function App() {
             }
           ></Route>
           <Route
+            path='/all-teachers'
+            element={
+              <Layout>
+                <AllTeachers />
+              </Layout>
+            }
+          ></Route>
+          <Route
             path='/privacy-policy'
             element={
               <Layout>
@@ -199,14 +212,6 @@ function App() {
             element={
               <Layout>
                 <Partnership />
-              </Layout>
-            }
-          ></Route>
-          <Route
-            path='/teachers'
-            element={
-              <Layout>
-                <Teachers />
               </Layout>
             }
           ></Route>

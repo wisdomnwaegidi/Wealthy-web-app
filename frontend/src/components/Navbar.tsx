@@ -2,11 +2,9 @@ import { useState, useEffect, useRef } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-// FaBookOpen,
-
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState<boolean | number>(false);
   const [indicatorStyle, setIndicatorStyle] = useState({});
   const navRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
@@ -35,9 +33,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
-        scrolled ? "py-4  backdrop-blur-md shadow-sm" : "py-8 bg-transparent"
-      }`}
+      className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 bg-white md:bg-transparent ${
+  scrolled ? "py-4 backdrop-blur-md shadow-sm" : "py-8"
+}`}
     >
       <div className='max-w-7xl mx-auto px-6 flex items-center justify-between'>
         {/* LOGO */}

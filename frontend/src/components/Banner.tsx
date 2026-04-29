@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="bg-img sm:w-4/5 mx-auto sm:rounded-3xl p-16 my-24">
+    <div className="bg-img sm:w-4/5 mx-auto sm:rounded-3xl p-16 mt-32">
       <div className="flex flex-col items-center text-center p-5">
         <h1 className="text-white font-semibold text-xl sm:text-2xl">
           Discover how we teach your child to become brilliant.

@@ -9,7 +9,7 @@ interface Teacher extends TeacherData {
   showIcons: boolean;
 }
 
-export default function Teachers() {
+export default function AllTeachers() {
   // 1. Initialize State: Map data and set showIcons to false for all
   const [teachers, setTeachers] = useState<Teacher[]>(
     teachersData.map((teacher) => ({ ...teacher, showIcons: false })),
@@ -27,6 +27,14 @@ export default function Teachers() {
 
   return (
     <div className='container mx-auto py-16 text-center mt-[10%]'>
+      <h2 className='text-3xl md:text-4xl font-extrabold text-black mb-4'>
+        Meet our Teachers
+      </h2>
+      <p className='text-gray-500 text-base md:text-lg max-w-2xl mx-auto mb-12'>
+        Our dedicated teachers are passionate educators committed to nurturing
+        excellence, building confidence, and guiding every student toward
+        academic success and strong character development.
+      </p>
       {/* 2. GRID CONTAINER (using grid instead of flex for rigid structure) */}
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-16 justify-center max-w-7xl mx-auto px-6'>
         {teachers.map((teacher) => {

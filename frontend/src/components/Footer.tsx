@@ -58,7 +58,7 @@ export const Footer = () => {
   });
 
   return (
-    <footer className='bg-prcolor py-8 md:py-24'>
+    <footer className='bg-prcolor py-8 md:py-8'>
       <div className='container sm:w-4/5 mx-auto px-4 pt-12'>
         {/* Footer Main Grid */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
@@ -166,7 +166,7 @@ export const Footer = () => {
 
             <div>
               <h1 className='text-lg font-bold text-white opacity-75 mb-4'>
-                Company
+                School
               </h1>
               <ul>
                 {[
@@ -216,7 +216,7 @@ export const Footer = () => {
         </div>
 
         {/* Social Media Section */}
-        <div className='mt-10'>
+        <div className='mt-4'>
           <section className='mt-9'>
             <hr className='w-full mb-4 border-t border-white' />
             <p className='text-white text-center'>

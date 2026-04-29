@@ -14,7 +14,7 @@ export default function Welcome() {
 
   return (
     <>
-      <div className='sm:w-4/5 mx-auto px-4 md:px-8 py-20'>
+      <div className='sm:w-4/5 mx-auto px-4 md:px-8 py-20 mt-24'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-16 items-center'>
           {/* LEFT */}
           <div>
